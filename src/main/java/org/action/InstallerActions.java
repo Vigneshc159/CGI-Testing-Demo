@@ -340,7 +340,7 @@ public class InstallerActions extends InstallerRepo {
 		addinvestment.click();
 		//uploadFile.click();
 		WebElement file_upload=wb.findElement(By.id("ContentPlaceHolder1_FUAttQuo"));
-		file_upload.sendKeys("D:\\UPLOAD\\train.pdf");
+		file_upload.sendKeys("C:\\UPLOAD\\train.pdf");
 	}
 	public void IS18(WebDriver wb) {
 		wb.findElement(By.id("DivSetup")).click();
@@ -397,7 +397,7 @@ public class InstallerActions extends InstallerRepo {
 		usereditButton2.click();
 		investmenteditButton.click();
 		WebElement file_upload=wb.findElement(By.id("ContentPlaceHolder1_FUAttQuo"));
-		file_upload.sendKeys("D:\\UPLOAD\\train.pdf");
+		file_upload.sendKeys("C:\\UPLOAD\\train.pdf");
 
 	}
 	
