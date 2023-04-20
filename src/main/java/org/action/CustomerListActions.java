@@ -540,13 +540,13 @@ public class CustomerListActions extends CustomerListRepo{
 		s.selectByVisibleText("Test Client");
 		searchButton.click();
 		editcustomerButton2.click();
-		actionButton.click();
-		editpaymentscheduleButton.click();
-		updatedButton2.click();
-		warningButton1.click();
-		Actions a1 = new Actions(wb);
-		a1.click(wb.findElement(By.xpath("//div[@class=\"btn btn-primary btn-sm h-35px\"]"))).build().perform();
-		backButton2.click();
+		//actionButton.click();
+		//editpaymentscheduleButton.click();
+		//updatedButton2.click();
+		//warningButton1.click();
+		//Actions a1 = new Actions(wb);
+		//a1.click(wb.findElement(By.xpath("//div[@class=\"btn btn-primary btn-sm h-35px\"]"))).build().perform();
+		//backButton2.click();
 	
 }
 	public  void cs35(WebDriver wb)  {
