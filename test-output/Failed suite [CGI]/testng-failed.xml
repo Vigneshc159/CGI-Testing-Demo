@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [CGI]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name=" CGI Parallel test(failed)(failed)">
+    <classes>
+      <class name="org.test.CustomerSetup">
+        <methods>
+          <include name="TC07"/>
+          <include name="close"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- org.test.CustomerSetup -->
+    </classes>
+  </test> <!--  CGI Parallel test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [CGI]] -->

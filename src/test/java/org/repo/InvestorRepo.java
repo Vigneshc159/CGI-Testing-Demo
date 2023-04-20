@@ -1,0 +1,82 @@
+package org.repo;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class InvestorRepo {
+	public @FindBy (xpath="//*[@id=\\\"DivUser\\\"]/span/span[2]") WebElement admin;
+	public @FindBy (linkText="Investor") WebElement Investor;
+	public @FindBy (id="ContentPlaceHolder1_lnkbtnadd") WebElement addinv;
+	public @FindBy (id="ContentPlaceHolder1_txtCompanyName") WebElement invname;
+	public @FindBy (id="ContentPlaceHolder1_btnlnkSave") WebElement saveButton;
+	public @FindBy (xpath="//button[@type=\"reset\"][@class=\"btn btn-primary\"]") WebElement okwarning;
+	public @FindBy (id="ContentPlaceHolder1_lnkclear") WebElement clearButton;
+	public @FindBy (id="ContentPlaceHolder1_lnkBack") WebElement backButton;
+	public @FindBy (id="ContentPlaceHolder1_gvinvester_lnkEdit_0") WebElement Ronnieedit;
+	public @FindBy (xpath="//div[@class=\"btn btn-primary btn-sm\"]") WebElement actionButton;
+	public @FindBy (id="ContentPlaceHolder1_LinkButton1") WebElement editInv;
+	public @FindBy (id="ContentPlaceHolder1_btnlnkSave") WebElement updateButton;
+	public @FindBy (id="ContentPlaceHolder1_lnkbtnCloseSUccessPopop") WebElement updatesuccessButton;
+	public @FindBy (id="ContentPlaceHolder1_lnkbtnadd") WebElement addTrans;
+	public @FindBy (id="ContentPlaceHolder1_txtamount") WebElement transamt;
+	public @FindBy (id="ContentPlaceHolder1_btnlnkClear") WebElement tranclearButton;
+	public @FindBy (id="ContentPlaceHolder1_lnkBack") WebElement tranbackButton;
+	public @FindBy (xpath="//input[@id=\"ContentPlaceHolder1_txttransdat\"]") WebElement trandateButton;
+	public @FindBy (id="ContentPlaceHolder1_lnkbtncusmapping") WebElement customersButton;
+	public @FindBy (id="ContentPlaceHolder1_lnkexcel") WebElement eportexccelButton;
+	public @FindBy (id="ContentPlaceHolder1_LinkButton4") WebElement investorbackButton;
+	public @FindBy (xpath="	//a[@id=\"ContentPlaceHolder1_lnkadd\"]\r\n"+ "") WebElement addcustomersButton;
+	public @FindBy (id="ContentPlaceHolder1_ddlinstaller") WebElement selectinstallerButton;
+	public @FindBy (id="ContentPlaceHolder1_rptcustomerslist_checkAll") WebElement selectallButton;
+	public @FindBy (xpath="	//a[@id=\"ContentPlaceHolder1_lnkbtnsave\"]\r\n"+ "") WebElement saveButton2;
+	public @FindBy (id="ContentPlaceHolder1_button3") WebElement warningButton;
+	public @FindBy (id="ContentPlaceHolder1_gvcustmapping_lnkEdit_4") WebElement customereditButton;
+	public @FindBy (xpath="	//a[@id=\"ContentPlaceHolder1_lnkbtnupdate\"]\r\n"+ "") WebElement customerupdatedButton;
+	public @FindBy (id="ContentPlaceHolder1_lnkExcel") WebElement excelButton;
+	public @FindBy (linkText="View users") WebElement viewuserButton;
+	public @FindBy (id="ContentPlaceHolder1_txtFname") WebElement usernameButton;
+	public @FindBy (id="ContentPlaceHolder1_txtLastName") WebElement userlastnameButton;
+	public @FindBy (id="ContentPlaceHolder1_ddlusertpenew") WebElement selectusertypeButton;
+	public @FindBy (id="ContentPlaceHolder1_ddlinvestor") WebElement selectinvestorButton;
+	public @FindBy (id="ContentPlaceHolder1_lnkbtnviewinvestor") WebElement backButton1;
+	public @FindBy (id="ContentPlaceHolder1_gvInvestment_lnkEdit_0") WebElement transactioneditButton;
+	public @FindBy (id="ContentPlaceHolder1_LinkButton8") WebElement warningButton1;
+	public @FindBy (id="ContentPlaceHolder1_gvinvester_lnkEdit_0") WebElement editinvestorButton;
+	public @FindBy (id="ContentPlaceHolder1_gvInvestment_lnkDownload_0") WebElement investordownloadButton;
+	public @FindBy (id="ContentPlaceHolder1_btnbankaccess") WebElement customers;
+	public @FindBy (id="ContentPlaceHolder1_gvcustmapping_lnkEdit_0") WebElement customerseditButton;
+	public @FindBy (id="ContentPlaceHolder1_rptcustomerslist_chkEmailName_0") WebElement clickCustomer;
+	public @FindBy (xpath="//a[@id=\"ContentPlaceHolder1_lnkbtnupdate\"]\r\n"+ "") WebElement updateButton1;
+	public @FindBy (id="ContentPlaceHolder1_lnkadd") WebElement customersaddButton;
+	public @FindBy (id="ContentPlaceHolder1_ddlinstaller") WebElement selectinstaller;
+	public @FindBy (id="ContentPlaceHolder1_lnkbtnsave") WebElement saveButton3;
+	public @FindBy (id="ContentPlaceHolder1_rptcustomerslist_chkEmailName_0") WebElement clickCustomer2;
+	public @FindBy (id="ContentPlaceHolder1_button3") WebElement warningButton2;
+	public @FindBy (id="ContentPlaceHolder1_btnfileupload") WebElement document;
+	public @FindBy (id="ContentPlaceHolder1_gvfileupload_lnkEdit_0") WebElement documentviewButton;
+	public @FindBy (xpath="//a[@id=\"ContentPlaceHolder1_btnlnkSave\"]") WebElement updatedButton2;
+	public @FindBy (id="ContentPlaceHolder1_LinkButton8") WebElement warningButton3;
+	public @FindBy (id="ContentPlaceHolder1_gvfileupload_lnkDownload_0") WebElement documentdownloadButton;
+	public @FindBy (id="ContentPlaceHolder1_lnkbtnaddFileupload") WebElement adddocumentButton;
+	public @FindBy (id="ContentPlaceHolder1_LinkButton9") WebElement warningButton4;
+	public @FindBy (id="ContentPlaceHolder1_txtnotes") WebElement filenamebox;
+	public @FindBy (xpath="//a[@id=\"ContentPlaceHolder1_btnlnkSave\"]\r\n"+ "") WebElement saveButton4;
+	public @FindBy (id="ContentPlaceHolder1_btnnewsfeed") WebElement newfeeds;
+	public @FindBy (id="ContentPlaceHolder1_gvfileupload_lnkEdit_1") WebElement documentviewButton2;
+	public @FindBy (xpath="/html/body/form/div[3]/div/div/div/div[1]/div[4]/div/span/a") WebElement updatedButton4;
+	public @FindBy (xpath="//button[@id=\"Hyperlink\"]\r\n"+ "") WebElement warningButton5;
+	public @FindBy (id="ContentPlaceHolder1_lnkbtnaddFileupload") WebElement addnewfeedsButton;
+	public @FindBy (xpath="/html/body/form/div[3]/div/div/div/div/div[4]/div/span/a") WebElement saveButton5;
+	public @FindBy (xpath="	//a[@id=\"LinkButton9\"]\r\n"+ "") WebElement warningButton6;
+	public @FindBy (id="ContentPlaceHolder1_lnkHyperlink") WebElement backButton2;
+	public @FindBy (id="ContentPlaceHolder1_lnkHyperlinkD") WebElement backButton3;
+	public @FindBy (xpath="//input[@id=\"txttitle\"]") WebElement title;
+	public @FindBy (xpath="	//textarea[@id=\"txtnewsfeed\"]\r\n"+ "") WebElement newsfeedtextbox;
+	public @FindBy (id="ContentPlaceHolder1_gvfileupload_lnkEdit_0") WebElement needsviewButton;
+	public @FindBy (id="ContentPlaceHolder1_btninvestorrep") WebElement investorreprsentative;
+	public @FindBy (id="ContentPlaceHolder1_rptcgiusers_chkEmailName_3") WebElement clickCustomer3;
+	public @FindBy (id="ContentPlaceHolder1_lnkbtnSubmit") WebElement submitButton;
+
+	
+	//ContentPlaceHolder1_rptcgiusers_chkEmailName_3
+}

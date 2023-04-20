@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name= "CGI">
+	<test verbose="2" name=" CGI Parallel test">
+		<classes>
+			<class name="org.test.BankSetup" />
+			<class name="org.test.InstallerSetup" />
+			<class name="org.test.CustomerListSetup" />
+			<class name="org.test.CustomerSetup" />
+			<class name="org.test.Entry" />
+			<!--<class name="org.test.Investor" />-->
+			<!--<class name="org.test.ViewUser" />
+			<class name="org.test.ReportsSetup" />-->
+
+			
+			
+		</classes>
+	</test> <!-- Default test -->
+</suite> <!-- Default suite -->
